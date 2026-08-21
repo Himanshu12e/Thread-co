@@ -943,7 +943,8 @@ footer p a:hover{
     }
 }
 
-@media(min-width : 700px) and (max-width : 1300px){
+/* for ankit laptop */
+@media(min-width : 920px) and (max-width : 1300px){
     .items{
         flex-wrap: nowrap;
     }
