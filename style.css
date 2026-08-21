@@ -943,6 +943,12 @@ footer p a:hover{
     }
 }
 
+@media(min-width : 922px) and (max-width : 1200px){
+    .items{
+        flex-wrap: nowrap;
+    }
+}
+
 @media (max-width : 922px){
     header{
         flex-direction: column;
@@ -962,6 +968,7 @@ footer p a:hover{
       #hero{
         padding-top: 13.5%;
       }
+
 }
 
 @media (max-width : 768px){
@@ -987,7 +994,7 @@ footer p a:hover{
    }
 
     
-}
+} 
 
 
 @media (max-width : 480px){
