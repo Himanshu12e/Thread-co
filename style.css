@@ -323,7 +323,7 @@ main{
 
 .items{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 30px;
     margin-top: 10px;
 }
