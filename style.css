@@ -323,7 +323,7 @@ main{
 
 .items{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 10px;
 }
@@ -943,7 +943,7 @@ footer p a:hover{
     }
 }
 
-@media(min-width : 922px) and (max-width : 1200px){
+@media(min-width : 700px) and (max-width : 1300px){
     .items{
         flex-wrap: nowrap;
     }
